@@ -1,0 +1,48 @@
+{
+  "name": "rexford-taxi-and-courier",
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "eject": "expo eject",
+    "test": "node ./node_modules/jest/bin/jest.js --watchAll"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/samples": "2.1.1",
+    "@types/react-navigation": "^3.0.6",
+    "expo": "^32.0.0",
+    "firebase": "^6.1.0",
+    "mobx": "^5.9.4",
+    "mobx-react": "^5.4.3",
+    "native-base": "^2.12.1",
+    "react": "16.5.0",
+    "react-addons-update": "^15.6.2",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-32.0.0.tar.gz",
+    "react-native-google-places-autocomplete": "^1.3.9",
+    "react-native-maps": "^0.23.0",
+    "react-native-router-flux": "^4.0.6",
+    "react-native-spinkit": "^1.3.0",
+    "react-navigation": "^3.0.9",
+    "react-redux": "^7.0.2",
+    "react-router-flux": "^1.0.0",
+    "redux": "^4.0.1",
+    "redux-logger": "^3.0.6",
+    "redux-thunk": "^2.3.0",
+    "scaledrone-react-native": "^1.5.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-decorators": "^7.4.4",
+    "@types/expo": "^32.0.11",
+    "@types/expo__vector-icons": "^9.0.1",
+    "@types/react": "^16.8.14",
+    "@types/react-native": "^0.57.50",
+    "@types/redux-logger": "^3.0.7",
+    "babel-preset-expo": "^5.0.0",
+    "jest-expo": "^32.0.0"
+  },
+  "private": true
+}
